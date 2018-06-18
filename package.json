@@ -1,0 +1,19 @@
+{
+  "name": "gli2012.calculator.app",
+  "version": "0.5.1",
+  "displayName": "GLI-2012",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-whitelist": "1"
+  }
+}
