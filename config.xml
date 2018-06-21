@@ -60,7 +60,6 @@
     <platform name="tizen">
         <icon height="128" src="icons/Icon-128.png" width="128" />
     </platform>
-    <engine name="android" spec="~7.0.0" />
-    <engine name="ios" spec="^4.5.4" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>
