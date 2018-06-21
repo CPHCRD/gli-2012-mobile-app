@@ -1,6 +1,6 @@
 {
     "name": "gli2012.calculator.app",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "displayName": "GLI-2012",
     "cordova": {
         "platforms": [
