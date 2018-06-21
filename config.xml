@@ -41,20 +41,26 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <icon height="40" src="icons/iOS/Icon-40.png" width="40" />
         <icon height="180" src="icons/iOS/Icon-180.png" width="180" />
         <icon height="60" src="icons/iOS/Icon-60.png" width="60" />
         <icon height="120" src="icons/iOS/Icon-120.png" width="120" />
+        <icon height="100" src="icons/iOS/Icon-100.png" width="100" />
         <icon height="76" src="icons/iOS/Icon-76.png" width="76" />
         <icon height="152" src="icons/iOS/Icon-152.png" width="152" />
         <icon height="57" src="icons/iOS/Icon-57.png" width="57" />
         <icon height="114" src="icons/iOS/Icon-114.png" width="114" />
         <icon height="72" src="icons/iOS/Icon-72.png" width="72" />
         <icon height="144" src="icons/iOS/Icon-144.png" width="144" />
+        <icon height="196" src="icons/iOS/Icon-196.png" width="256" />
+        <icon height="256" src="icons/iOS/Icon-256.png" width="256" />
+        <icon height="512" src="icons/iOS/Icon-512.png" width="512" />
+        <icon height="1024" src="icons/iOS/Icon-1024.png" width="1024" />
     </platform>
     <platform name="tizen">
         <icon height="128" src="icons/Icon-128.png" width="128" />
     </platform>
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <engine name="android" spec="~7.0.0" />
     <engine name="ios" spec="^4.5.4" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>
