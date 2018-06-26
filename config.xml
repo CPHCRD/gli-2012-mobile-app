@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="gli2012.calculator.app" version="0.5.3" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="gli2012.calculator.app" version="0.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>GLI-2012</name>
     <description>GLI-2012 calculator application</description>
     <author email="info@cphcrd.org" href="http://www.cphcrd.org/">CPHCRD</author>
@@ -62,4 +62,6 @@
     </platform>
     <preference name="phonegap-version" value="cli-8.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <engine name="android" spec="~7.0.0" />
+    <engine name="ios" spec="^4.5.4" />
 </widget>
